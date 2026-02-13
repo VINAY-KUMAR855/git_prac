@@ -1,0 +1,44 @@
+git status
+git init
+git add
+git commit -m
+git log
+git show fbf0339decc9b94eae406b7442ea9e3590b3531f
+
+git add .
+git add -A
+
+git clone
+
+git pull
+
+
+.gitignore    files
+		texs.txt
+		*.txt
+		!texs.txt  (not)
+		/texs      texs folder ignore if texs is in main folder
+		texs/
+		
+		
+
+README.md   (mark down)
+
+
+git log
+git checkout      # add commit id a last to which place to go
+git lod --oneline 
+
+git revert (commit id or head~number(1,2,3, etc.))     # used to undo changes preserving the commit history; add new commit with new and previous are available in previous commit id
+git revert commitID --no-edit
+
+git reset commit id or head~number     #used to move the HEAD pointer to a specic commit, it modifies the commit history by adjusting the HEAD pointer ; only comit is changed no code is changed , files are untracked
+   
+git reset --soft commit id      # files are in stagging area
+git reset --hard commit id
+
+
+
+
+
+
