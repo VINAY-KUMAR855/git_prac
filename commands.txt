@@ -38,8 +38,12 @@ git reset commit id or head~number     #used to move the HEAD pointer to a speci
 git reset --soft commit id      # files are in stagging area
 git reset --hard commit id
 
-
-
+-----
+git checkout -b "branch1" # create new branch1 and move to branch1
+modifies some files 
+git add modified_files
+git commit -m ""
+git push --set-upstream origin branch1
 
 
 
