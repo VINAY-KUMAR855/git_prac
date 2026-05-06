@@ -44,6 +44,9 @@ modifies some files
 git add modified_files
 git commit -m ""
 git push --set-upstream origin branch1
-
-
+# we raised PR and accepted, so code was merged. but not in out local.so, use below
+git checkout main # move to main branch
+# we can use git fetch or git pull. git fetch only gets chanegs, it doesn't modifies code.
+git pull # It modifies code as well. 
+-------------
 
